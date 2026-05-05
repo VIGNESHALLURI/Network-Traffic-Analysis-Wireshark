@@ -1,0 +1,6 @@
+                                                 Network Traffic Analysis Report
+
+- DNS queries observed for google.com and gstatic.com
+- TCP communication observed between local IP and external IPs
+- HTTPS traffic identified on port 443
+- No suspicious activity found
