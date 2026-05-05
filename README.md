@@ -1,26 +1,24 @@
-                                Network Traffic Analysis using Wireshark
-Project Overview:-
-In this project, I captured network traffic using Wireshark and analyzed basic network protocols to understand how communication happens.
+# Network Traffic Analysis using Wireshark
 
-What I did:-
--Captured live network traffic
--Applied DNS filter to observe domain queries
--Applied TCP filter to analyze communication
--Observed traffic on port 443 (HTTPS)
+##  Project Description
+This project demonstrates basic network traffic analysis using Wireshark. A packet capture (.pcap) file is analyzed to understand communication between devices.
 
-Tools Used:-
--Wireshark
+##  What I Did
+- Captured network traffic using Wireshark
+- Applied DNS filter to observe domain queries
+- Analyzed TCP communication (3-way handshake)
+- Checked source and destination IP addresses
 
-Files in this project:-
--Network Traffic Analysis.pcap → captured traffic
--screenshots → DNS and TCP analysis images
--report.txt → summary
+## Key Observations
+- DNS queries were made to domains like google.com and gstatic.com
+- TCP handshake (SYN, SYN-ACK, ACK) was observed
+- HTTPS traffic was identified using port 443
 
-Key Observations:-
--DNS queries were made to domains like google.com and gstatic.com
--TCP packets were exchanged between local system and external servers
--HTTPS traffic was observed on port 443
--Communication appeared normal
+## Files Included
+- Network Traffic Analysis.pcap
+- screenshots folder (DNS + TCP analysis)
+- report.txt
 
-Conclusion:-
-This project helped me understand how DNS and TCP work in real network traffic using Wireshark.
+## Conclusion
+This project helped me understand how network communication works and how to analyze packets using Wireshark, which is useful for cybersecurity roles.
+
