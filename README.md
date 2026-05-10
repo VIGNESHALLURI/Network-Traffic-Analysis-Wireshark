@@ -20,5 +20,5 @@ This project demonstrates basic network traffic analysis using Wireshark. A pack
 - report.txt
 
 ## Conclusion
-This project helped me understand how network communication works and how to analyze packets using Wireshark, which is useful for cybersecurity roles.
+This project helped me understand how network communication works and how to analyze packets using Wireshark.
 
